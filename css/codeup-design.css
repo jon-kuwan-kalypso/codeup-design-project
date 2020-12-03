@@ -1,11 +1,7 @@
 .container {
-    font-size: 43px;
+    font-size: 64px;
     font-weight: bold;
     padding: 0;
-}
-
-.bg-3 {
-    font-size: 28px;
 }
 
 .row {
@@ -22,6 +18,7 @@
     border-color: white;
     font-weight: bold;
     border-width: thick;
+    font-family: 'Anton', sans-serif;
 
 }
 body {
@@ -66,30 +63,61 @@ p{
     border-style: solid;
 }
 .bg-9{
-    size: 30px;
-    height: 30px;
-    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    size: 18px;
+    height: 18px;
+    width: 18px;
     border: none;
-}
+    margin-right: 2px;
+    background-color: #E6563B;
+    color: black;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;}
 .bg-10{
-    size: 30px;
-    height: 30px;
-    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    size: 18px;
+    height: 18px;
+    width: 18px;
     border: none;
-}
+    margin-right: 2px;
+    background-color: #EB9D3A;
+    color: black;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;}
 .bg-11{
-
-    size: 30px;
-    height: 30px;
-    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    size: 18px;
+    height: 18px;
+    width: 18px;
     border: none;
+    margin-right: 2px;
+    background-color: #7CB06C;
+    color: black;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;
 }
 .bg-12{
-    size: 30px;
-    height: 30px;
-    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    size: 18px;
+    height: 18px;
+    width: 18px;
     border: none;
-}
+    background-color: #00ABA9;
+    color: black;
+    font-size: 14px;
+    font-family: 'Anton', sans-serif;}
 .card-body{
     padding: 0;
     margin: 0;
@@ -101,10 +129,38 @@ p{
     margin: 0;
     margin-right: 0;
     margin-block-end: 0;
+    font-family: 'Abel', sans-serif;
 }
 .row-4{
-    justify-items: center;
+    display: flex;
+    padding-left: 50px;
+    /*!**justify-items: center;*/
     float: right;
     clear: top;
 
 }
+.container-3 {
+    display: flex;
+}
+.bg-2>p {
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+.bg-3>p {
+    font-family: 'Anton', sans-serif;
+    font-size: 20px;
+}
+p {
+    font-family: 'Abel', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border-top: 50px;
+
+}
+.bg-3 {
+    font-size: 28px;
+}
+.selected-work-text {
+    margin-top: 40px;
+}
+
