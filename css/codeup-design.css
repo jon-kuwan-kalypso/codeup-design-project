@@ -13,7 +13,6 @@
     size: 105px;
     height: 105px;
     width: 105px;
-    margin: ;
     border-style: solid;
     border-color: white;
     font-weight: bold;
@@ -21,48 +20,57 @@
     font-family: 'Anton', sans-serif;
 
 }
+
 body {
     background-color: #F0F0F0;
 }
 
 .row-3 {
-    padding-left: 50px;
-    margin-left: 30px;
+
+    /*padding-left: 50px;*/
+    /*margin-left: 30px;*/
 }
 
 .bg-5 {
     background-color: #E6563B;
 }
+
 .bg-6 {
     background-color: #DEA03D;
 }
+
 .bg-7 {
     background-color: #7CB06C;
 }
+
 .bg-8 {
     background-color: #00ABA9;
 }
 
-img{
+img {
     border-style: solid;
     border-color: #E6E6E6;
 }
-.card{
+
+.card {
     justify-items: center;
-margin-left: auto;
+    margin-left: auto;
     margin-right: auto;
     background-color: transparent;
-    border-color: transparent   ;
+    border-color: transparent;
 }
-p{
+
+p {
     font-size: 16px;
-    font-family:"abel regular";
+    font-family: "abel regular";
 }
-.navbar{
+
+.navbar {
     line-height: 30px;
     border-style: solid;
 }
-.bg-9{
+
+.bg-9 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -75,8 +83,10 @@ p{
     background-color: #E6563B;
     color: black;
     font-size: 14px;
-    font-family: 'Anton', sans-serif;}
-.bg-10{
+    font-family: 'Anton', sans-serif;
+}
+
+.bg-10 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -89,8 +99,10 @@ p{
     background-color: #EB9D3A;
     color: black;
     font-size: 14px;
-    font-family: 'Anton', sans-serif;}
-.bg-11{
+    font-family: 'Anton', sans-serif;
+}
+
+.bg-11 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,7 +117,8 @@ p{
     font-size: 14px;
     font-family: 'Anton', sans-serif;
 }
-.bg-12{
+
+.bg-12 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -117,12 +130,15 @@ p{
     background-color: #00ABA9;
     color: black;
     font-size: 14px;
-    font-family: 'Anton', sans-serif;}
-.card-body{
+    font-family: 'Anton', sans-serif;
+}
+
+.card-body {
     padding: 0;
     margin: 0;
 }
-.card-text{
+
+.card-text {
 
     justify-content: right;
     width: 60%;
@@ -131,7 +147,8 @@ p{
     margin-block-end: 0;
     font-family: 'Abel', sans-serif;
 }
-.row-4{
+
+.row-4 {
     display: flex;
     padding-left: 50px;
     /*!**justify-items: center;*/
@@ -139,17 +156,21 @@ p{
     clear: top;
 
 }
+
 .container-3 {
     display: flex;
 }
-.bg-2>p {
+
+.bg-2 > p {
     font-family: 'Anton', sans-serif;
     font-size: 50px;
 }
-.bg-3>p {
+
+.bg-3 > p {
     font-family: 'Anton', sans-serif;
     font-size: 20px;
 }
+
 p {
     font-family: 'Abel', sans-serif;
     font-size: 12px;
@@ -157,10 +178,23 @@ p {
     border-top: 50px;
 
 }
+
 .bg-3 {
     font-size: 28px;
 }
+
 .selected-work-text {
     margin-top: 40px;
 }
 
+.container-2 {
+    width: 230px;
+
+}
+
+@media screen and (min-width: 568px) {
+    .container-2 {
+        width: auto;
+    }
+
+}
