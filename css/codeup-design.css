@@ -1,0 +1,47 @@
+.container {
+    font-size: 43px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.bg-3 {
+    font-size: 28px;
+}
+
+.row {
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.btn {
+    size: 105px;
+    height: 105px;
+    width: 105px;
+    margin: ;
+    border-style: solid;
+    border-color: white;
+    font-weight: bold;
+    border-width: thick;
+
+}
+body {
+    background-color: #F0F0F0;
+}
+
+.row-3 {
+    padding-left: 50px;
+    margin-left: 30px;
+}
+
+.bg-5 {
+    background-color: #E6563B;
+}
+.bg-6 {
+    background-color: #DEA03D;
+}
+.bg-7 {
+    background-color: #7CB06C;
+}
+.bg-8 {
+    background-color: #00ABA9;
+}
