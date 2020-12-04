@@ -185,6 +185,10 @@ p {
 
 .selected-work-text {
     margin-top: 40px;
+    font-family: 'Abel', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    border-top: 50px;
 }
 
 .container-2 {
@@ -197,4 +201,14 @@ p {
         width: auto;
     }
 
+}
+@media screen and (max-width: 570px){
+hr{
+    visibility: hidden;
+}
+}
+/*@media screen and (min-width: 569px){*/
+/*    .selected-work-text{*/
+/*        text-align: left;*/
+/*    }*/
 }
