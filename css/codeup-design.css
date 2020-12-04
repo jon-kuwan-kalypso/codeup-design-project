@@ -188,8 +188,12 @@ p {
     font-family: 'Abel', sans-serif;
     font-size: 12px;
     text-align: center;
+    justify-content: space-between;
     border-top: 50px;
+    padding-right: 6px;
+
 }
+
 
 .container-2 {
     width: 230px;
@@ -212,4 +216,20 @@ p {
 /*    .selected-work-text{*/
 /*        text-align: left;*/
 /*    }*/
+p>#3-nav{
+    justify-content: left;
+    justify-items: left;
+    text-align: left;
+}
+img{
 
+    width: 4rem;
+}
+h5{
+    font-family: 'Anton', sans-serif;
+
+
+}
+.last{
+    font-weight: bold;
+}
