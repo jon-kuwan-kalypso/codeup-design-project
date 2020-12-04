@@ -202,13 +202,18 @@ p {
     }
 
 }
-@media screen and (max-width: 570px){
-hr{
-    visibility: hidden;
+@media screen and (max-width: 570px) {
+    hr {
+        visibility: hidden;
+    }
 }
+
+
+.col-md-3 {
+
 }
 /*@media screen and (min-width: 569px){*/
 /*    .selected-work-text{*/
 /*        text-align: left;*/
 /*    }*/
-}}
+
