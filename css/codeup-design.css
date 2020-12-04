@@ -199,7 +199,7 @@ p {
 @media screen and (min-width: 568px) {
     .container-2 {
         width: auto;
-    }
+    }}
 
 }
 @media screen and (max-width: 570px){
