@@ -9,10 +9,42 @@
     <link rel="stylesheet" href="css/codeup-design.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
 </head>
 
 <body>
+<!--toolbar-->
+<div class="container-fluid" id="heading-container">
+    <div class="row" id="logo-row" >
+<!-- xs heading       -->
+<div class="col-12 d-sm-none justify-content-center " id="xs-logo">
+    <img src="images/logo.png" alt="logo" height="105px" width="105px" class="rounded-circle" id="logo-img">
+    <p class="text ">codeup design</p>
+</div>
+    <nav class="navbar navbar-expand-large d-flex justify-content-around">
+        <a class="abel-text text-dark p-1" href="#">SERVICES</a>
+        <a class="abel-text text-dark p-1" href="#">WORK</a>
+        <a class="abel-text text-dark p-1" href="#">BLOG</a>
+        <a class="abel-text text-dark p-1" href="#">CONTACT</a>
+
+    </nav>
+
+
+
+<div class="container d-none d-sm-block d-md-none">
+    <nav class="navbar navbar-expand-large d-flex justify-content-around">
+        <a class="abel-text text-dark p-1" href="#">SERVICES</a>
+        <a class="abel-text text-dark p-1" href="#">WORK</a>
+        <img src="images/logo.png" alt="logo" height="105px" width="105px" class="rounded-circle">
+        codeup design
+        <a class="abel-text text-dark p-1" href="#">BLOG</a>
+        <a class="abel-text text-dark p-1" href="#">CONTACT</a>
+
+    </nav>
+
+
+</div>
+    </div>
 
 <div class="container">
 
@@ -170,9 +202,12 @@
         </li>
         <br>
         <li class="media">
-            <img src="./images/twitter.png" class="img-thumbnail">
-            <div class="media-body">
+<!--            <img src="./images/twitter.png"  width="50px" class="img-thumbnail">-->
+            <div class="media-body" style="font-size:26px ">
+                <i class="fab fa-twitter"></i>
                 <p class="last mt-0 mb-1">LAST TWEET</p>
+                <br>
+                <br>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque doloremque excepturi harum molestiae numquam pariatur perferendis provident sunt. Ad alias commodi distinctio doloremque error ipsa laudantium nemo officia voluptates! Voluptates!
             </div>
         </li>
@@ -190,6 +225,6 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"
         integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
         crossorigin="anonymous"></script>
-
+</div>
 </body>
 </html>

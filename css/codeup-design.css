@@ -22,7 +22,7 @@
 }
 
 body {
-    background-color: #F0F0F0;
+    background-color: #E6E6E6;
 }
 
 .row-3 {
@@ -221,10 +221,10 @@ p>#3-nav{
     justify-items: left;
     text-align: left;
 }
-img{
+/*img{*/
 
-    width: 4rem;
-}
+/*    width: 4rem;*/
+/*}*/
 h5{
     font-family: 'Anton', sans-serif;
 
@@ -233,3 +233,26 @@ h5{
 .last{
     font-weight: bold;
 }
+#xs-logo{
+    margin-top: 60px;
+    height: 55px;
+    margin-bottom: 100px;
+
+
+    flex-direction: column;
+    background-color: #F0F0F0 ;
+}
+#logo-img{
+
+
+    border-color: transparent;
+
+}
+.fab{
+
+    color: cornflowerblue;
+}
+nav{
+    border-color: transparent;
+}
+
