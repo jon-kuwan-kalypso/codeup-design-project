@@ -225,34 +225,62 @@ p>#3-nav{
 
 /*    width: 4rem;*/
 /*}*/
-h5{
+h5 {
     font-family: 'Anton', sans-serif;
-
-
-}
-.last{
-    font-weight: bold;
-}
-#xs-logo{
-    margin-top: 60px;
-    height: 55px;
-    margin-bottom: 100px;
-
-
-    flex-direction: column;
-    background-color: #F0F0F0 ;
-}
-#logo-img{
-
-
-    border-color: transparent;
-
-}
-.fab{
-
-    color: cornflowerblue;
-}
-nav{
-    border-color: transparent;
 }
 
+
+/*}*/
+/*.last{*/
+/*    font-weight: bold;*/
+/*}*/
+/*#xs-logo{*/
+/*    margin-top: 60px;*/
+/*    height: 55px;*/
+/*    margin-bottom: 100px;*/
+
+
+/*    flex-direction: column;*/
+/*    background-color: #F0F0F0 ;*/
+/*}*/
+/*#logo-img{*/
+
+
+/*    border-color: transparent;*/
+
+/*}*/
+/*.fab{*/
+
+/*    color: cornflowerblue;*/
+/*}*/
+/*nav{*/
+/*    border-color: transparent;*/
+/*}*/
+.nav-background {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    height: 59px;
+    width: 100%;
+    top: 37px;
+    z-index: -1000;
+}
+.wrapper {
+    max-width: 1100px;
+    width: 100%;
+    margin: 0 auto;
+}
+.brand-name {
+    font-size: 1.75em;
+}
+nav .nav-item {
+    position: relative;
+    bottom: 6px;
+}
+nav a {
+    font-size: 1em;
+    color: black;
+}
+.navbar-xs-top {
+    border-style: none;
+}
