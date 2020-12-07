@@ -271,9 +271,11 @@ h5 {
     margin: 0 auto;
 }
 .brand-name {
+    font-family: 'Abel', sans-serif;
     font-size: 1.75em;
 }
 nav .nav-item {
+    font-family: 'Abel', sans-serif;
     position: relative;
     bottom: 6px;
 }
@@ -283,4 +285,15 @@ nav a {
 }
 .navbar-xs-top {
     border-style: none;
+}
+#tweet{
+text-align: left;
+    font-weight: normal;
+    font-family: 'Abel', sans-serif;
+
+}
+.fa-twitter{
+
+    padding-top: 10px;
+    padding-left: 30px;
 }
